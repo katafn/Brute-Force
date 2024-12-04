@@ -1,0 +1,5 @@
+{
+    "server": "172.17.49.182",
+    "password_file": "brute force/passwords.txt",
+    "user_file": "brute force/usernames.txt"
+}
