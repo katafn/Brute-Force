@@ -11,7 +11,6 @@ Questo progetto implementa un **Brute Force Tool** per attacchi su server FTP, p
 
 - Python 3.7 o superiore
 - Moduli Python standard:
-  - `json`
   - `ipaddress`
   - `ftplib`
   - `os`
@@ -22,12 +21,6 @@ Questo progetto implementa un **Brute Force Tool** per attacchi su server FTP, p
 
 1. **Struttura dei file**  
    Assicurati di avere:
-   - Un file JSON di configurazione (`config.json`) con le seguenti chiavi:
-     ```json
-     {
-       "server": "Indirizzo IP del server FTP predefinito (opzionale)"
-     }
-     ```
    - Un file contenente una lista di **password**, con una password per riga:
      ```
      password1
