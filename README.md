@@ -109,9 +109,4 @@ Questo strumento è stato sviluppato a scopo didattico. L'uso su sistemi senza a
 2. **SSH:**  
    - Quando il protocollo scelto è **SSH**, il programma tenta di connettersi al server SSH sulla porta **22** e testare le combinazioni di username e password.  
    - Utilizza il modulo `paramiko` per la connessione SSH.
-  
----
 
-### Modifiche recenti:
-
-- **Aggiunta del supporto SSH**: Ora è possibile eseguire brute force su server **SSH** oltre che su server **FTP**.
